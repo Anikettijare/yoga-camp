@@ -260,6 +260,9 @@ form button{
     .box1 ul{
         display: none;
      }
+     .blogs li img {
+        margin: 12px;
+    }
 }
 @media (max-width:1200px) {
     .headings {
