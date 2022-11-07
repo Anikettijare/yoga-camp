@@ -259,12 +259,22 @@ form button{
     }
     .box1 ul{
         display: none;
-     }
-     .blogs li img {
+    }
+    .blogs li img {
         margin: 12px;
     }
     .footer{
         margin-right: 0px;
+    }
+    .blogs li h3{
+        font-size: 27px;
+        padding: 0px 5px;
+    }
+    .blogs li h4{
+        padding: 10px 5px;
+    }
+    .blogs li p{
+        padding: 0px 5px;
     }
 }
 @media (max-width:1200px) {
