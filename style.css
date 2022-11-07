@@ -263,6 +263,9 @@ form button{
      .blogs li img {
         margin: 12px;
     }
+    .footer{
+        margin-right: 0px;
+    }
 }
 @media (max-width:1200px) {
     .headings {
