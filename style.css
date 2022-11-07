@@ -276,6 +276,9 @@ form button{
     .blogs li p{
         padding: 0px 5px;
     }
+    .left{
+        font-size: 16px;
+    }
 }
 @media (max-width:1200px) {
     .headings {
