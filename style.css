@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(9, 94, 72);
+}
+.box1 h1{
+    text-align: center;
+    color: #99fa99;
+    font-size: 50px;
+    padding: 35px;
+}
+.box1 span{
+    display: block;
+    color:  #b6d8cf;
+    font-size: 25px;
+}
+.box1 ul{
+   text-align: center;
+  
+}
+.box1 ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 30px;
+   
+}
+.box1 ul li a{
+    color: #b6d8cf;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.box1 ul li a:hover{
+    background-color: #d0e6e0;
+    color: black;
+}
+.box2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.headings{
+    width: 50%;
+    margin-left: 80px;
+    float: left;
+}
+.headings h1{
+    font-size: 140px;
+    font-weight: 100;
+    color: #54f554;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.headings p{
+    font-size: 80px;
+    font-weight: 100;
+    color: #54f554;
+    margin-top: 40px;
+    margin-left: 83px;
+    line-height: 80px;
+}
+.headings hr{
+    width: 100px;
+    background-color: violet;
+    padding: 5px;
+    margin-left: 190px;
+}
+.yoga img{
+    width: 271px;
+    height: 600px;
+    float: right;
+    margin:50px 140px 30px 0px;
+}
+
+.info{
+    background-color: white;
+    margin: 30px 30px 0px 30px;
+    text-align: justify;
+}
+.info h2{
+    font-size: 40px;
+    padding: 20px 30px;
+}
+.info h3{
+    padding: 20px 30px 0px 30px;
+}
+.info p{
+    line-height: 25px;
+    padding: 10px 30px;
+}
+.box4{
+    width: 100%;
+    height: auto;
+}
+.yoga-class{
+    background-color: white;
+    margin: 30px 30px 0px 30px;
+    float: left;
+}
+.yoga-class h2{
+    font-size: 40px;
+    padding: 20px 30px;
+}
+.yoga-class h3{
+    padding: 20px 30px 0px 30px;
+}
+.yoga-class p{
+    line-height: 40px;
+    padding: 10px 30px ;
+}
+.image img{
+    float: right;
+    width: 275px;
+    margin: 30px 30px 0px 10px;
+}
+.box5{
+    width: 100%;
+    height: auto;
+}
+.blogs{
+    list-style: none;
+    background-color: white;
+    margin: 30px 30px 0px 30px;
+}
+.blogs h2{
+    font-size: 40px;
+    padding: 20px 30px;
+}
+.blogs li img{
+    margin: 30px; 
+}
+.left{
+    float: right;
+    font-size: 20px;
+    padding: 50px 190px 0px 10px;
+    line-height: 20px;
+}
+.blogs li h3{
+    color: #315f52;
+    font-size:30px ;
+    padding: 5px 0px;
+}
+.blogs li h4{
+    padding: 10px 0px;
+}
+.box6{
+    width:100%;
+    height: auto;
+    background-color: white;
+    margin-top: 30px;
+}
+.co-form h2{
+    font-size: 40px;
+    padding: 20px 30px;
+}
+.co-form form{
+    width: 50%;
+    margin-left: 50px;
+    float: left;
+}
+form input{
+    width:90%;
+    padding: 5px;
+    background-color: rgb(211, 206, 206);
+}
+form h5{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+form p{
+    padding: 10px 0px;
+}
+form button{
+    margin: 20px 0px;
+}
+.footer{
+    float: right;
+    text-align: center;
+    margin: 150px 27px 0px 0px;
+}
+.footer span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer p{
+    padding: 10px;
+}
+.footer i{
+    margin: 40px 0px;
+    padding: 20px;
+    font-size: 50px;
+}
+.footer i:hover{
+    cursor: pointer;
+}
+@media(max-width:900px){
+    .headings{
+        width: 80%;
+    }
+    .headings h1{
+         margin-left: 5px;
+    }
+    .headings p{
+        margin-left: 100px ;
+    }
+    .yoga img{
+        float: left;
+        margin: 0px 0px 30px 235px; 
+    }
+    .image img{
+        display: none;
+    }
+    .blogs{
+        padding-bottom: 20px;
+    }
+    .left {
+        display: contents;
+        font-size: 20px;
+        padding: 0px 0px 0px 30px;
+    }
+    .co-form form {
+        width: 85%;
+        margin-left: 80px;
+    }
+    .footer{
+        text-align: center;
+        float: none;
+    }
+}
+@media(max-width:600px){
+    .headings{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .headings h1 {
+        font-size: 80px;
+    }
+    .headings hr{
+        margin-left: 100px;
+    }
+    .headings p{
+        margin-left: 35px;
+        font-size: 50px;
+    }
+    .yoga img {
+        float: none;
+        margin: 0px 0px 30px 40px;
+    }
+    .co-form form {
+        width: 85%;
+        margin-left: 40px;
+    }
+    .box1 ul{
+        display: none;
+     }
+}
+@media (max-width:1200px) {
+    .headings {
+        margin-left: 0px;
+    }
+    
+}
