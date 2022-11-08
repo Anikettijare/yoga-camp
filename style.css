@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     background-color: rgb(9, 94, 72);
 }
+/* css applied to box1 */
 .box1 h1{
     text-align: center;
     color: #99fa99;
@@ -40,6 +41,7 @@
     background-color: #d0e6e0;
     color: black;
 }
+/* css applied yo box2 */
 .box2{
     width: 100%;
     height: auto;
@@ -78,7 +80,7 @@
     float: right;
     margin:50px 140px 30px 0px;
 }
-
+/* css applied to box3 */
 .info{
     background-color: white;
     margin: 30px 30px 0px 30px;
@@ -95,6 +97,7 @@
     line-height: 25px;
     padding: 10px 30px;
 }
+/* css applied to box4 */
 .box4{
     width: 100%;
     height: auto;
@@ -120,6 +123,7 @@
     width: 275px;
     margin: 30px 30px 0px 10px;
 }
+/* css applied to box5 */
 .box5{
     width: 100%;
     height: auto;
@@ -150,6 +154,7 @@
 .blogs li h4{
     padding: 10px 0px;
 }
+/* css applied to box6 */
 .box6{
     width:100%;
     height: auto;
