@@ -227,7 +227,8 @@ form button{
         margin: 0px 0px 30px 235px; 
     }
     .blogs li img {
-        margin: 30px 30px 30px 205px;
+        width: 651px;
+        margin: 30px 30px 30px 30px;
     }
     .image img{
         display: none;
@@ -238,7 +239,9 @@ form button{
     .left {
         display: contents;
         font-size: 20px;
-        padding: 0px 0px 0px 30px;
+    }
+    .left p,h4,h3{
+        margin-left: 30px;
     }
     .co-form form {
         width: 85%;
