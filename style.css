@@ -207,17 +207,27 @@ form button{
 }
 @media(max-width:900px){
     .headings{
-        width: 80%;
+        width: 100%;
     }
     .headings h1{
          margin-left: 5px;
     }
     .headings p{
-        margin-left: 100px ;
+        margin-left: 160px ;
+    }
+    .headings hr{
+        margin-left: 43%;
+    }
+    .box1 ul {
+        text-align: center;
+        font-size: 7px;
     }
     .yoga img{
         float: left;
         margin: 0px 0px 30px 235px; 
+    }
+    .blogs li img {
+        margin: 30px 30px 30px 205px;
     }
     .image img{
         display: none;
